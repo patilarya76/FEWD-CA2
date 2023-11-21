@@ -1,0 +1,170 @@
+ *{
+        margin: 0px;
+        padding: 0px;
+}
+    
+body{
+        background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-business-background-design-of-pink-module-picture-image_907209.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: inherit;
+
+    }
+
+.gameover{
+background-color: rgb(117, 105, 105);
+ height: 300px;
+ width: 350px;
+ margin-left: 630px;
+ margin-top: 60px;
+ border-radius: 20px;
+}
+
+#sentence{
+  text-align: center;
+ padding-top: 100px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 1.5vw;
+ font-style: italic;
+}
+
+#digits{
+    text-align: center;
+    padding-top: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    font-style: italic;
+}
+
+h1{
+    text-align: center;
+   padding-top: 150px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 4.5vw;
+   font-style: italic;
+}
+
+#button1 {
+    background-color: #b16464;
+    border-radius: 10vw;
+    color: white;
+    padding: 0px 10px;
+    margin-top: 40vh;
+    cursor: pointer;
+    width: 12vw;
+    height: 6vh;
+    font-size: 2vw;
+    margin-top: 4vh;
+    margin-bottom: 0.2vh;
+   
+
+}
+
+#button2 {
+    background-color: #b16464;
+    border-radius: 10vw;
+    color: white;
+    padding: 3px 30px;
+    margin-top: 40vh;
+    cursor: pointer;
+    width: 9vw;
+    height: 6vh;
+    font-size: 2vw;
+    margin-top: 4vh;
+    margin-bottom: 0.2vh;
+    /* margin-right: 80px; */
+}
+
+.buttons{
+    /* display: flex;
+    justify-content: space-evenly; */
+    padding-left:640px;
+   
+}
+
+/* For mobile */
+@media only screen and (max-width: 600px){
+    *{
+        margin: 0px;
+        padding: 0px;
+}
+    
+body{
+        background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-business-background-design-of-pink-module-picture-image_907209.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: inherit;
+
+    }
+
+.gameover{
+background-color: rgb(238, 220, 220);
+ height: 300px;
+ width: 350px;
+ margin-left: 30px;
+ margin-top: 60px;
+ border-radius: 20px;
+}
+
+#sentence{
+  text-align: center;
+ padding-top: 100px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 3.5vw;
+ font-style: italic;
+}
+
+#digits{
+    text-align: center;
+    padding-top: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.5vw;
+    font-style: italic;
+}
+
+h1{
+    text-align: center;
+   padding-top: 150px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 4.5vw;
+   font-style: italic;
+}
+
+#button1 {
+    background-color: #b16464;
+    border-radius: 10vw;
+    color: white;
+    padding: 0px 10px;
+    margin-top: 40vh;
+    cursor: pointer;
+    width: 22vw;
+    height: 7vh;
+    font-size: 3vw;
+    margin-top: 4vh;
+    margin-bottom: 0.2vh;
+   
+
+}
+
+#button2 {
+    background-color: #b16464;
+    border-radius: 10vw;
+    color: white;
+    padding: 0px 10px;
+    margin-top: 40vh;
+    cursor: pointer;
+    width: 9vw;
+    height: 7vh;
+    font-size: 3vw;
+    margin-top: 4vh;
+    margin-bottom: 0.2vh;
+    
+}
+
+.buttons{
+  
+    padding-left:130px;
+   
+}
+
+}
