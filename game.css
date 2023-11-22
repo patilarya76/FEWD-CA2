@@ -8,7 +8,7 @@
 body{
     background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-business-background-design-of-pink-module-picture-image_907209.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 110%;
     background-position: inherit;
 
 }
@@ -73,29 +73,24 @@ h1{
 
 /* For mobile */
 @media only screen and (max-width: 600px){
-    *{
+ *{
         margin: 0px;
         padding: 0px;
-    }
-    
-    body{
-        background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-business-background-design-of-pink-module-picture-image_907209.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: inherit;
-    
-    }
-    
-    h1{
+}
+body{
+        background-size: 500px;
+}
+
+h1{
         text-align: center;
         /* margin-top: 0px; */
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 4.5vw;
         font-style: italic;
         bottom: 180px;
-    }
+}
     
-    #game{
+#game{
         height: 400px;
         width: 300px;
         border: solid black 5px;
@@ -105,22 +100,21 @@ h1{
         position: relative;
         display: flex;
         border-radius: 20px;
-    }
+}
     
-    
-    #game div{
+#game div{
         display: flex;
         flex-direction: column;
         
     }
     
-    #game div div{
+#game div div{
         height: 40px;
-        width: 30px;
+        width: 15px;
         margin: 0%;
     }
     
-    #start{
+#start{
         background-color: rgb(230, 133, 133);
         font-size: x-large;
         font-weight: bold;
@@ -133,15 +127,14 @@ h1{
         color: rgb(180, 28, 28) ;
         cursor: pointer;
         
-    }
-    
-    #score{
+}
+#score{
         font-size: 2.5vh;
     
         color: rgb(255, 0, 0);
         position: absolute;
         top: 18%;
         left: 38%;
-    }
+}
     
 }

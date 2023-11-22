@@ -3,7 +3,7 @@
 body {
     background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-business-background-design-of-pink-module-picture-image_907209.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 110%;
     background-position: inherit;
 }
 *{
@@ -43,6 +43,7 @@ h2{
     padding-top: 20px;
 }
 #button {
+   
     background-color: #b16464;
     border-radius: 10vw;
     color: white;
@@ -54,13 +55,17 @@ h2{
     font-size: 2vw;
     margin-top: 4vh;
     margin-bottom: 0.2vh;
+    
 }
+
+
 input {
     width: 20vw;
     border-radius: 0.3vw;
     border: 0.3vw solid black;
     padding-top: 3vh;
     margin-top: 4vw;
+    
 }
 #playerName{
     font-size: 2vw;
@@ -80,30 +85,35 @@ input {
 /* For mobile */
 @media only screen and (max-width: 600px) {
   
+    body{
+        background-size: 500px;    
     
+    }
     h1 {
-        font-size: 8vw;
-        width: 80vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 80vw;
+        font-style: italic;
         margin-left: 80px;
-        
     }
 
-    form {
+    #playerForm {
         width: 80vw;
-        margin-left: 100px;
+        margin-left: 50px;
+        /* padding-bottom: 10px; */
         
     }
 
     #button {
         width: 50vw;
         font-size: 5vw;
+      
     }
 
     input {
         width: 70vw;
     }
 }
-/* For DESKtop */
+/* For DESKtop  */
 @media only screen and (max-width: 1024px) {
     h1 {
         font-size: 4vw;
@@ -117,6 +127,7 @@ input {
     #button {
         width: 18vw;
         font-size: 1.5vw;
+        text-decoration: none;
     }
 
     input {
