@@ -67,8 +67,8 @@ for(var i=0;i<20;i++){
     if(event.key==='q'){
         x=x-1;
         if(x==0){
-          alert("you won the match !!");
-          location.href="./result.html"
+         
+          location.href="./modal.html"
         }
         s=0;
         turn='forward';
@@ -113,8 +113,8 @@ for(var i=0;i<20;i++){
   }
   else{
     setTimeout(() => {
-      alert("GAME OVER !! YOUR SCORE IS :- "+score);
-     location.href="./result.html"
+      
+     location.href="./modal.html"
       // backgroundSound.pause()
       // backgroundSound.loop=false;
     }, 100);

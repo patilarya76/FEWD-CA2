@@ -1,5 +1,4 @@
-const button = document.getElementById("button");
-
-button.onclick = () => {
-  location.href = "./instruction.html";
-};
+const button=document.getElementById("button");
+button.onclick=()=>{
+  window.location.href="instruction.html";
+}
