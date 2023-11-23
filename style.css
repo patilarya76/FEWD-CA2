@@ -1,7 +1,7 @@
 /* SCREEN 1*/
 
 body {
-    background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-business-background-design-of-pink-module-picture-image_907209.jpg");
+    background-image: url("https://media.giphy.com/media/3ohzgD1wRxpvpkDCSI/giphy.gif");
     background-repeat: no-repeat;
     background-size: 100% 110%;
     background-position: inherit;
@@ -31,7 +31,7 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:#fffbfa;
+    background-color:none;
     height: 52vh;
     width: 28vw;
     border-radius: 1vw;
@@ -87,7 +87,8 @@ input {
 @media only screen and (max-width: 600px) {
   
     body{
-        background-size: 500px;    
+        background-size: 400px 400px 400px 400px;    
+        background-image: url("https://media.giphy.com/media/3ohzgD1wRxpvpkDCSI/giphy.gif");
     
     }
     h1 {

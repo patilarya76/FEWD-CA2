@@ -1,7 +1,7 @@
 //start
 
 for(var i=0;i<20;i++){
-    document.getElementById("game").innerHTML=document.getElementById("game").innerHTML+"<div><div class='1'></div><div class='2'></div><div class='3'></div><div class='4'></div><div class='5'></div><div class='6'></div><div class='7'></div><div class='8'></div><div class='9'></div><div class='10'></div></div>"
+    document.getElementById("game").innerHTML=document.getElementById("game").innerHTML+"<div><div id='clickableDiv' class='1'></div><div class='2'></div><div class='3'></div><div class='4'></div><div class='5'></div><div class='6'></div><div class='7'></div><div class='8'></div><div class='9'></div><div class='10'></div></div>"
   }
   
   
@@ -28,6 +28,7 @@ for(var i=0;i<20;i++){
   }
   
   // move of block functionality
+  
   var id;
   var turn ='forward';
   function move(row,length,s){
@@ -39,7 +40,7 @@ for(var i=0;i<20;i++){
         document.getElementsByClassName(row.toString())[s].style.backgroundColor='';
         s++;
       }
-      else if(length==20){
+      else if(length==20 ){
         length=s-1
         s=19;
         turn='backward';
@@ -60,23 +61,43 @@ for(var i=0;i<20;i++){
     }, 100);
   }
   
+  // Add click event listener to the clickable div
+// document.getElementById("clickableDiv").addEventListener("click", () => {
+//   x = x - 1;
+//   if (x == 0) {
+//       location.href = "./modal.html"
+//   }
+//   s = 0;
 
-  // adding a key to play game
+//   turn = 'forward';
+
+//   // Initialize the length of the variable
+//   var length = 0;
+//   clearInterval(id);
+//   cutting_extra(x + 1);
+//   start();
+// });
+
+  // adding a onclick to play game
   
-  document.addEventListener("keypress", event =>{
-    if(event.key==='q'){
+  document.getElementById("clickableDiv").addEventListener("click", () =>{
+    
         x=x-1;
         if(x==0){
          
           location.href="./modal.html"
         }
         s=0;
+
         turn='forward';
+
+        //initailize]ing the length of the  variable
+        var length=0;
         clearInterval(id);
         cutting_extra(x+1);
         start();
-    }
-  })
+    
+  });
   
 
   //cutting extra block
@@ -113,7 +134,7 @@ for(var i=0;i<20;i++){
   }
   else{
     setTimeout(() => {
-      
+      localStorage.setItem("score",score)
      location.href="./modal.html"
       // backgroundSound.pause()
       // backgroundSound.loop=false;
@@ -137,4 +158,4 @@ for(var i=0;i<20;i++){
 const backgroundSound = new Audio("./assets/background sound.mp3");
 backgroundSound.play()
 
-backgroundSound.loop = true;
+backgroundSound.loop = true;   

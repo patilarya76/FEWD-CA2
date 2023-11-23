@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-business-background-design-of-pink-module-picture-image_907209.jpg);
+    background-image: url(https://media.giphy.com/media/3ohzgD1wRxpvpkDCSI/giphy.gif);
     background-repeat: no-repeat;
     background-size: 100% 110%;
     background-position: inherit;
@@ -78,16 +78,17 @@ h1{
         padding: 0px;
 }
 body{
-        background-size: 500px;
+    background-size: 400px 400px 400px 400px; 
+    background-image: url(https://media.giphy.com/media/3ohzgD1wRxpvpkDCSI/giphy.gif);
 }
 
 h1{
         text-align: center;
-        /* margin-top: 0px; */
+        margin-top: -28px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 4.5vw;
         font-style: italic;
-        bottom: 180px;
+        top: 50px;
 }
     
 #game{
@@ -137,4 +138,23 @@ h1{
         left: 38%;
 }
     
+}
+
+
+.click{
+    font-style: italic;
+    background-color: brown;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    /* padding: 10px 10px 10px 10px; */
+    border-color: black;
+    margin-left: 44%;
+    /* margin-bottom: 100px; */
+   
+    
+}
+
+#clickableDiv{
+    top: 50%;
 }

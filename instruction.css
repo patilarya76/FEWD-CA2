@@ -39,7 +39,7 @@ h1{
 }
 
 body{
-    background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-business-background-design-of-pink-module-picture-image_907209.jpg);
+    background-image: url("https://media.giphy.com/media/Cwf290yH98VbpeRqe0/giphy.gif");
  
     background-repeat: no-repeat;
     background-size: 100% 150%;
@@ -104,7 +104,9 @@ body{
    }
    
    body{
-    background-size: 500px;    
+    background-size: 400px 400px 400px 400px;    
+    
+    background-image: url("https://media.giphy.com/media/Cwf290yH98VbpeRqe0/giphy.gif");
 
 }
    
