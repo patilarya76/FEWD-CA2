@@ -35,10 +35,14 @@ function openModal() {
 
     /* Retrieve the score from local storage */
     var score1 = localStorage.getItem('score');
+    var nickname = localStorage.getItem('nickname');
+    var playername = localStorage.getItem('playername');
 
     /* Update the modal content with the score */
-    scoreValue.textContent = 'Score: ' + score;
+    scoreValue.textContent = 'hello, '+ playername +' ('+nickname+') ' +'Score: ' + score;
     resultTextElement.textContent = getResultText(score);
+
+console.log(nickname)
 
     /* Display the modal */
     modal.style.display = 'block';

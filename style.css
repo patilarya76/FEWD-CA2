@@ -24,16 +24,10 @@ h1{
 }
 h2{
     text-align: center;
-    font-size: 5vw;
+    font-size: 3vw;
 }
 #playerForm {
     display: flex;
-
-
-
-
-
-
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -62,7 +56,7 @@ h2{
     margin-top: 4vh;
     margin-bottom: 0.2vh;
     font-style: normal;
-    margin-left: 55px;
+    margin-left: 80px;
 }
 
 
@@ -75,14 +69,14 @@ input {
     
 }
 #playerName{
-    font-size: 2vw;
+    font-size:1vw;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     font-style: italic;
 }
 #nickname{
-    font-size: 2vw;
+    font-size: 1vw;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -114,7 +108,7 @@ input {
     #button {
         width: 100px;
         height: 25px;
-        margin-right: 45px;
+        margin-right: 60px;
         /* font-size: 6vw;
         margin-left: 20px;
         margin-top: 10px;
@@ -138,6 +132,20 @@ input {
 
     input {
         width: 70vw;
+    }
+    #playerName{
+        font-size: x-large;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-style: italic;
+    }
+    #nickname{
+        font-size: 2vw;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-style: italic;
     }
 }
 /* For DESKtop  */
