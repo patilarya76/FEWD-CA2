@@ -6,7 +6,7 @@
 body{
         background-image: url(https://media.giphy.com/media/OkVVUlG40FnuE/giphy.gif);
         background-repeat: no-repeat;
-        background-size: 100% 110%;
+        background-size: 2000px;
         background-position: inherit;
 
     }
@@ -86,7 +86,7 @@ h1{
 }
 
 /* For mobile */
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 900px){
     *{
         margin: 0px;
         padding: 0px;
@@ -95,7 +95,7 @@ h1{
 body{
     
     background-image: url(https://media.giphy.com/media/OkVVUlG40FnuE/giphy.gif);
-    padding:50px; 
+    padding:93px; 
 }
 
 .gameover{

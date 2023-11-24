@@ -84,12 +84,12 @@ input {
 }
 
 /* For mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   
     body{
         
         background-image: url("https://media.giphy.com/media/3ohzgD1wRxpvpkDCSI/giphy.gif");
-       padding:50px; 
+       padding:70px; 
     }
     h1 {
         font-family: Georgia, 'Times New Roman', Times, serif;
