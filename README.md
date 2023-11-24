@@ -41,6 +41,8 @@ screenshot when the game starts
 
 ![Alt text](<img readme/scr3.png>)
 
+######Whenever the user or the player scores above 70 then only the player will  win !!!######
+
 On the fourth screen whenever the user or the player misses the the fourth screen will display the score with the  name you entered.
 
 #screenshotofscreen4
