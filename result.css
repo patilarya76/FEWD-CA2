@@ -93,9 +93,9 @@ h1{
 }
     
 body{
-    padding:50px; 
+    
     background-image: url(https://media.giphy.com/media/OkVVUlG40FnuE/giphy.gif);
-
+    padding:50px; 
 }
 
 .gameover{

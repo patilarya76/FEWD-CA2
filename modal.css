@@ -54,6 +54,7 @@ body {
   body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url("https://media.giphy.com/media/ZnKdSM5piRLDW/giphy.gif");
+    padding:50px; 
   }
   
   .modal {
