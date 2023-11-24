@@ -15,7 +15,7 @@ body{
 
 h1{
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3vw;
     font-style: italic;
@@ -69,6 +69,22 @@ h1{
     position: absolute;
     top: 28%;
     left: 45%;
+}
+
+
+.click {
+    font-style: italic;
+    background-color: brown;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    border-color: black;
+  margin-right: 750px;
+  
+}
+
+#clickableDiv {
+    text-align: center; 
 }
 
 /* For mobile */
@@ -141,20 +157,19 @@ h1{
 }
 
 
-.click{
+
+
+.click {
     font-style: italic;
     background-color: brown;
     height: 30px;
     width: 100px;
     border-radius: 20px;
-    /* padding: 10px 10px 10px 10px; */
     border-color: black;
-    margin-left: 44%;
-    /* margin-bottom: 100px; */
-   
-    
+    margin-left: 35%;
+    margin-top: 20px; 
 }
 
-#clickableDiv{
-    top: 50%;
+#clickableDiv {
+    text-align: center; 
 }

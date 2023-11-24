@@ -4,7 +4,7 @@
 }
     
 body{
-        background-image: url(https://media.giphy.com/media/3o7TKzhPqGvUDm3pba/giphy.gif);
+        background-image: url(https://media.giphy.com/media/OkVVUlG40FnuE/giphy.gif);
         background-repeat: no-repeat;
         background-size: 100% 110%;
         background-position: inherit;
@@ -93,8 +93,8 @@ h1{
 }
     
 body{
-    background-size: 400px 400px 400px 400px;   
-    background-image: url(https://media.giphy.com/media/3o7TKzhPqGvUDm3pba/giphy.gif);
+    padding:50px; 
+    background-image: url(https://media.giphy.com/media/OkVVUlG40FnuE/giphy.gif);
 
 }
 
@@ -102,7 +102,7 @@ body{
 background-color: rgb(238, 220, 220);
  height: 300px;
  width: 350px;
- margin-left: 40px;
+ margin-left: 0px;
  margin-top: 30px;
  border-radius: 20px;
 
@@ -113,27 +113,15 @@ background-color: rgb(238, 220, 220);
     border-radius: 20px;
    
 }
-#sentence{
-  text-align: center;
- padding-top: 100px;
- font-family: Georgia, 'Times New Roman', Times, serif;
- font-size: 3.5vw;
- font-style: italic;
-}
 
-#digits{
-    text-align: center;
-    padding-top: 60px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 3.5vw;
-    font-style: italic;
-}
+
+
 
 h1{
-    padding-top: 100px;
+    padding-top: 90px;
   
    font-family: Georgia, 'Times New Roman', Times, serif;
-   font-size: 4.5vw;
+   font-size: 5vw;
    font-style: italic;
 }
 
@@ -157,7 +145,7 @@ h1{
     background-color: #b16464;
     border-radius: 10vw;
     color: white;
-    padding: 0px 10px;
+    padding: 0px 30px;
     margin-top: 40vh;
     cursor: pointer;
     width: 9vw;
@@ -165,12 +153,13 @@ h1{
     font-size: 3vw;
     margin-top: 4vh;
     margin-bottom: 0.2vh;
+    text-align: center;
     
 }
 
 .buttons{
   
-    padding-left:150px;
+    padding-left:100px;
    
 }
 

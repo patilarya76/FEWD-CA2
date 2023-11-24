@@ -1,6 +1,6 @@
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-image: url("https://media.giphy.com/media/l0JMrPWRQkTeg3jjO/giphy.gif");
+  background-image: url("https://media.giphy.com/media/ZnKdSM5piRLDW/giphy.gif");
 }
 
 .modal {
@@ -41,12 +41,19 @@ body {
   cursor: pointer;
   
 }
+.modal-content  :hover,
+.modal-content  :focus {
+  color: rgba(0, 0, 0, 0.274);
+  text-decoration: none;
+  cursor: pointer;
+  
+}
 
 /* For mobile */
 @media only screen and (max-width: 600px){
   body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url("https://media.giphy.com/media/l0JMrPWRQkTeg3jjO/giphy.gif");
+    background-image: url("https://media.giphy.com/media/ZnKdSM5piRLDW/giphy.gif");
   }
   
   .modal {
@@ -54,7 +61,7 @@ body {
     position: fixed;
     z-index: 1;
     left: 0;
-    top: 0;
+    top:20%;
     width: 100%;
     height: 100%;
     overflow: auto;

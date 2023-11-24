@@ -125,7 +125,26 @@ for(var i=0;i<20;i++){
     }
     }
   }
+  
+   // Check for winning condition
+   if (length === 20) {
+    gameOver = true;
+    document.getElementById("screen").innerHTML = "You won!";
+    openModal();
+    clearInterval(id);
+    return;
+}
 
+// Check for losing condition
+if (length === 0) {
+    gameOver = true;
+    setTimeout(() => {
+        localStorage.setItem("score", score);
+        document.getElementById("screen").innerHTML = "You lost!";
+        location.href = "./modal.html";
+    }, 100);
+    return;
+}
   //score
   length=sum;
   if(length!=0){
@@ -159,3 +178,4 @@ const backgroundSound = new Audio("./assets/background sound.mp3");
 backgroundSound.play()
 
 backgroundSound.loop = true;   
+
