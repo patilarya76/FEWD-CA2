@@ -2,7 +2,7 @@
   
      font-family: Georgia, 'Times New Roman', Times, serif;
      font-size: 1.5vw;
-     margin-left: 55vh;
+     margin-left: 60vh;
      margin-top: 5vh;
      font-style: italic;
      padding-top: 20px;
@@ -12,7 +12,7 @@
 
 
 .Wishes{
-    padding-left: 600px;
+    padding-left: 630px;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2vw;
@@ -64,7 +64,7 @@ body{
     font-style: normal;
     margin-top: 100px;
     /* margin-bottom: 0.2vh; */
-    margin-left: 600px;
+    margin-left: 630px;
    text-align: center;
    
    
