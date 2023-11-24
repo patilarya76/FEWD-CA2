@@ -8,8 +8,8 @@ In this game there are five screens.
 On the first screen there is basic information of the user that the user is asked to fill .
 
 #screenshotofscreen1
-![screen1](screen1.png)
 
+![Alt text](<img readme/screen1.png>)
 
 
 On the sceond screen there few instruction given which direct the user or player how to play the game.
@@ -22,7 +22,8 @@ The instructions are like:
         
         4. The player should score more than 70 to win the game.
 #screenshotofscreen2
-![screen2](screen2.png)
+![Alt text](<img readme/screen2.png>)
+
          
 
 
@@ -32,22 +33,24 @@ As the user or the player starts playing game the blocks or the divs will be pla
 The score will be incremented +10 after every block is placed.
 
 #screenshotofscreen3
-![screen3](screen3.png)
+![Alt text](<img readme/screen3.png>)
+
 
 screenshot when the game starts
-![Alt text](image.png)
+![Alt text](<img readme/image.png>)
 
-![Alt text](scr3.png)
-
+![Alt text](<img readme/scr3.png>)
 
 On the fourth screen whenever the user or the player misses the the fourth screen will display the score with the  name you entered.
 
 #screenshotofscreen4
-![Alt text](screen4.png)
+![Alt text](<img readme/screen4.png>)
 
 After clicking on the  cross you will be redirected you to the fifth screen and there the playagain and exit option will  be displayed.
 #screenshotofscreen5
-![Alt text](screen5.png)
+
+![Alt text](<img readme/screen5.png>)
+
 
 Languages used in this game:
 1. HTML5
