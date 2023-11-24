@@ -1,6 +1,6 @@
-#AERO BLOCKS ADVENTURE GAME#
+#AERO BLOCKS ADVENTURE GAME# (deployed link:-add https://patilarya76.github.io/FEWD-CA2/)
 
-This game is based on placing of two blocks on eachother for creating a tower.
+This game is based on placing of two blocks on eachother for creating a tower and it is a single player game.
 
 
 
