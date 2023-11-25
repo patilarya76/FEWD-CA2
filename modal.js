@@ -64,4 +64,3 @@ window.onload = function () {
     openModal();
 };
 
-//calling function

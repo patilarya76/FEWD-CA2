@@ -101,7 +101,7 @@ input {
     #playerForm {
         width: 80vw;
         margin-left: 5px;
-        /* padding-bottom: 10px; */
+       
         
     }
 
@@ -109,24 +109,14 @@ input {
         width: 100px;
         height: 25px;
         margin-right: 60px;
-        /* font-size: 6vw;
-        margin-left: 20px;
-        margin-top: 10px;
-        text-align: center; */
+      
         background-color: #b16464;
-    /* border-radius: 10vw; */
+   
     color: white;
-    /* padding: 8px 4px 4px 2px; */
+   
     margin-top: 20px;
     padding-top: 10px 0px 0px 0px;
-    /* cursor: pointer; */
-    /* width: 12vw; */
-    /* height: 6vh; */
-    /* font-size: 2vw; */
-    /* margin-top: 4vh; */
-    /* margin-bottom: 0.2vh; */
-    /* font-style: normal; */
-    /* margin-left: 55px; */
+  
       
     }
 

@@ -9,14 +9,15 @@ for(var i=0;i<20;i++){
   var length=10;
   var score=0;
   var s=0;
-  
+    
+  //calling the function
   function start(){
       fill_box(x,length);
       move(x,length,s);
       document.getElementById("start").removeAttribute("onclick");
   }
   
-  
+  //implementation 
   function fill_box(row,length) {
   
     for(var i=0;i<length;i++){
@@ -61,22 +62,6 @@ for(var i=0;i<20;i++){
     }, 100);
   }
   
-  // Add click event listener to the clickable div
-// document.getElementById("clickableDiv").addEventListener("click", () => {
-//   x = x - 1;
-//   if (x == 0) {
-//       location.href = "./modal.html"
-//   }
-//   s = 0;
-
-//   turn = 'forward';
-
-//   // Initialize the length of the variable
-//   var length = 0;
-//   clearInterval(id);
-//   cutting_extra(x + 1);
-//   start();
-// });
 
   // adding a onclick to play game
   
@@ -91,7 +76,7 @@ for(var i=0;i<20;i++){
 
         turn='forward';
 
-        //initailize]ing the length of the  variable
+        //initailizing the length of the  variable
         var length=0;
         clearInterval(id);
         cutting_extra(x+1);
@@ -108,11 +93,13 @@ for(var i=0;i<20;i++){
     }
     else{
       for(var i=0;i<=19;i++){
+    
       elem1=document.getElementsByClassName(block.toString())[i];
       elem2=document.getElementsByClassName((block+1).toString())[i];
-  
+    // Comparing the background color of two elements
       if(window.getComputedStyle(elem1).getPropertyValue("background-color")!=window.getComputedStyle(elem2).getPropertyValue("background-color")){
-  
+    // If the background color of elem2 is transparent, set elem1's background color to elem2's background color
+
         if(window.getComputedStyle(elem2).getPropertyValue("background-color")=='rgba(0, 0, 0, 0)'){
   
           elem1.style.backgroundColor=elem2.style.backgroundColor;
@@ -120,6 +107,7 @@ for(var i=0;i<20;i++){
         }
     }
     else {
+      // If the background color of elem2 is not transparent, incrementing the sum
       if(window.getComputedStyle(elem2).getPropertyValue("background-color")!='rgba(0, 0, 0, 0)')
       sum++;
     }
@@ -155,23 +143,13 @@ if (length === 0) {
     setTimeout(() => {
       localStorage.setItem("score",score)
      location.href="./modal.html"
-      // backgroundSound.pause()
-      // backgroundSound.loop=false;
+    
     }, 100);
    
   }
   
   }
-  //Add onclick sound
-// const onclickSound = new Audio("./assets/onclick.wav");
-// onclickSound.volume = 0.2;
 
-// addEventListener.onclick = () => {
-//     onclickSound.pause();
-//     onclickSound.currentTime = 0;
-//     onclickSound.play();
-
-// }
 
 // adding a backgroundSound
 const backgroundSound = new Audio("./assets/background sound.mp3");
